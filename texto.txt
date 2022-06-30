@@ -1,0 +1,11 @@
+uvicorn src.server:app --reload --reload-dir=src
+
+.\venv\Scripts\Activate.ps1
+
+criar os de usuario 
+
+alembic revision --autogenerate -m ""
+
+alembic upgrade head 
+
+
